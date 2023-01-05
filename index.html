@@ -17,7 +17,7 @@
       <h1>Calculator Калькулятор</h1>
 
       <div class="first-row">
-        <input type="text" name="result" class="result" id="result" value="" placeholder="Result" readonly />
+        <input type="text" name="result" class="result" id="result" value="" placeholder="Что тебе надо?" readonly />
         <input type="button" value="C" onclick="clearScreen()" class="clear" />
       </div>
       <div class="second-row">
@@ -43,7 +43,7 @@
 
         <input type="button" value="0" id="zero" onclick="liveScreen(0)" />
         <input type="button" value="." class="dot" onclick="liveScreen('.')" />
-        <input type="button" value="=" onclick="result.value = eval(result.value), new Audio('audio/2.mp3').play()" />
+        <input type="button" value="=" onclick="result.value = eval(result.value); new Audio('audio/pukane-21.mp3').play(); new Audio('audio/ponos9.mp3').play(); " />
       </div>
       <div class="bottom-buttons">
         <a href="https://github.com/zxcodes/JavaScript-Calculator"><i class="fab fa-github"></i>
